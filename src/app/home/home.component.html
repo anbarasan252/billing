@@ -1,0 +1,240 @@
+<div>
+  <mat-toolbar class="toolbar">
+    <img class="circle" src="./assets/d.jpg">
+    <span class="rightalign"></span>
+    <div>
+      <button mat-button routerLink="">Home</button>
+      <button mat-button>Blog</button>
+      <button mat-button>About us</button>
+      <button mat-button [matMenuTriggerFor]="menu">services</button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item routerLink="billing">Medical billing</button>
+        <button mat-menu-item routerLink="coding"> Medical coding</button>
+      </mat-menu>
+      <button mat-button>Contact us</button>
+    </div>
+  </mat-toolbar>
+</div>
+<div class="bg">
+  <div class="container">
+    <div class="slide">
+      <div class="text">
+        <mat-card-title>Learn the way you manage your<br>
+          Revenue Cycle</mat-card-title><br> <br><br>
+        <mat-card-content>Let us handle your revenue cycle?
+          Partner with us and know how we<br> help a medical practice identify
+          various areas for improvement.
+        </mat-card-content> <br><br><br>
+        <button mat-raised-button class="hover" routerLink="billing">Yes, I need to audit my revenue cycle</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="font-family: sans-serif;">
+  <div class="display">
+    <div class="card1"> <img src="./assets/toolbarlogo.png"><br>
+      <mat-card-title>Medical Transcription</mat-card-title>
+      <br>
+      <mat-card-content>We provide the best solution to improve Collections with reduced overhead expenses,
+        improved control over billing and non-clinical operations.</mat-card-content>
+    </div>
+
+    <div class="card1"> <img src="./assets/toolbarlogo.png"> <br>
+      <mat-card-title>Medical Coding</mat-card-title>
+      <br>
+      <mat-card-content>We are capable million charts annually across various specialities. Our qualified and
+        specialized coders
+        backed by 15 years of experience are capable of delivering seamless and professional coding services.
+      </mat-card-content>
+    </div>
+
+    <div class="card1"> <img src="./assets/toolbarlogo.png"><br>
+      <mat-card-title>Medical Billing</mat-card-title>
+      <br>
+      <mat-card-content>We follow all the latest billing methods and regulatory norms to meet client requirements
+        qualitatively within
+        the healthy TAT. Our team has right exposure to handle various software technology platforms whether it is
+        proprietary or mainstream for effective medical billing process.</mat-card-content>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="display">
+    <div class="handshake">
+      <mat-card-title>
+        <b>We can be your full service billing partner.</b>
+      </mat-card-title> <br>
+      <br>
+      <mat-card-content>
+        <span style="text-align: justify;">stellar services are committed to provide accurate, timely and effective
+          billing and coding
+          services. Our highly trained medical billing staff is an extension of your office. We are a
+          professional billing service helping you on the areas that you need assistance. Our employee
+          experts and keep up with the latest technologies to provide you the best in the industry. Our
+          customer focus approach and processes help you to increase your cash flow. We efficiently
+          manage all your billing needs paying close attention to every detail.</span>
+      </mat-card-content>
+      <br>
+      <br>
+      <div class="box"> <b>Facing Billing issues? Relax. We are with you.<br>
+          Reach us out at # +1 213-800-8688</b></div>
+      <br>
+      <br>
+      <span style="padding-left: 170px;"> <button mat-raised-button class="hover" position="center"
+          routerLink="billing">Read More</button></span>
+    </div>
+    <img src="./assets/handshake.jpg">
+  </div>
+</div>
+
+<!--blok3-->
+
+<div class="container">
+  <div
+    style="width: 100%; color: rgba(107, 107, 212, 0.76); background-color: azure; padding-top: 15px; padding-bottom: 15px;">
+    <div class="display">
+      <div>
+        <mat-card-title>We are meticulous and follow up on all claims</mat-card-title><br><br>
+        <mat-card-content>Our professionals have many years of experience; we put this experience to use
+          to get your <br> claims paid. We are meticulous and follow up on all claims. You can turn the worry
+          over to us.</mat-card-content>
+      </div>
+      <div style="padding: 25px 0px 0px 200px;">
+        <button mat-raised-button class="hover" position="center" routerLink="billing">Signup</button>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<!--block4-->
+
+<div class="container">
+  <div style="display: flex;">
+    <mat-card class="card5">
+      <mat-card-header>
+        <mat-icon mat-card-avatar style="color: blue;">supervisor_account</mat-icon>
+        <mat-card-title>One Stop RCM Solutions –</mat-card-title>
+        <mat-card-subtitle>cut down operation cost (Remote Medical Billing)</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>We are an end-to-end service provider. Our endeavor is to be a one-stop solution
+        for all your healthcare needs. We would like to be known as an organization who can handle all
+        the requirements of a physician office including Revenue Cycle Management, Medical Transcription,
+        IT Needs of a Clinic, etc.</mat-card-content>
+    </mat-card>
+
+    <mat-card class="card5">
+      <mat-card-header>
+        <mat-icon mat-card-avatar style="color: blue;">hourglass_empty</mat-icon>
+        <mat-card-title>Less AR Days – No more 120+ AR!!</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>Our expertise has proven success to almost all the clients by keeping a track of
+        entire AR. We concentrate more on old AR and improve the cash flow for
+        npaid claims.</mat-card-content>
+    </mat-card>
+  </div>
+
+
+  <div style="display: flex;">
+    <mat-card class="card5">
+      <mat-card-header>
+        <mat-icon mat-card-avatar style="color: blue;">autorenew</mat-icon>
+        <mat-card-title>Automate RCM operations</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>Automate and standardize medical billing with our feature packed,
+        user focused tools.</mat-card-content>
+    </mat-card>
+
+    <mat-card class="card5">
+      <mat-card-header>
+        <mat-icon mat-card-avatar style="color: blue;">trending_up</mat-icon>
+        <mat-card-title>Improved Collections – HIPPA?</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>Stop working under the data risks and high cost to collect, we have the
+        solution you are waiting for…</mat-card-content>
+    </mat-card>
+  </div>
+
+
+  <div style="display: flex;">
+    <mat-card style="width:47.5%">
+      <mat-card-header>
+        <mat-icon mat-card-avatar style="color: blue;">alarm</mat-icon>
+        <mat-card-title>Resolving Nature – 24/7 services?</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>Have you thought we can provide 24/7 support? Yes we provide 24/7 online
+        support to provide best services in medical billing and RCM workflow
+        reducing claims TAT and lags.</mat-card-content>
+
+    </mat-card>
+  </div>
+</div>
+<br> <br>
+<!--block4 end-->
+
+<div class="container">
+  <div style="display: flex;">
+    <h1 style="width: 30%;"><b>Our Affiliations</b></h1>
+    <div class="line"></div>
+  </div>
+</div>
+
+<div class="container">
+  <div style="display:flex; margin-left: 20%;">
+    <img src="./assets/client-1.png">
+    <img src="./assets/client-2.png">
+    <img src="./assets/client-3.png">
+    <img src="./assets/client-1.png">
+    <img src="./assets/client-2.png">
+    <img src="./assets/client-3.png">
+
+  </div>
+</div>
+<br><br>
+
+<!--block4 end-->
+<div class="container">
+  <div class="display">
+    <mat-card style="width: 33.33%;">
+      <mat-card-header>
+        <img mat-card-avatar class="avathar">
+          <mat-card-title>Eclinical Billing</mat-card-title>
+      </mat-card-header><br>
+      <mat-card-content>stellar services are committed to provide accurate, timely and effective
+        billing and coding services. Our highly trained medical billing staff is an extension of
+        your office. We are a professional billing service helping you on the areas that you need
+        assistance.</mat-card-content>
+      
+    </mat-card >
+
+    <mat-card style="width: 33.33%;">
+      <mat-card-title>BRANCHES</mat-card-title>
+      <mat-card-subtitle>India</mat-card-subtitle>
+      <mat-card-content>Address: India address: 543, 1st floor, Accord building,Anna salai,
+        nandanam - Chennai - 600035 Phone: +91 99404 08400</mat-card-content>
+      <mat-card-subtitle>United States ,Texas</mat-card-subtitle>
+      <mat-card-content>Address: PO BOX 137, Pasadena, TX 77501
+        Phone: +1 (832) 239-7392</mat-card-content>
+    </mat-card>
+
+    <mat-card style="width: 33.33%;">
+      <mat-card-title>SERVICES</mat-card-title>
+      
+        <button style="margin-right:10px; margin-top: 10px;" mat-raised-button class="hover2">Medical Billing</button>
+        <button style="margin-right:10px; margin-top: 10px;" mat-raised-button class="hover2">Medical Coding</button>
+        <button style="margin-right:10px; margin-top: 10px;" mat-raised-button class="hover2">EHR support</button>
+        <button style="margin-right:10px; margin-top: 10px;" mat-raised-button class="hover2">AR Calling</button>
+        <button style="margin-right:10px; margin-top: 10px;" mat-raised-button class="hover2">Hospital Billing</button>
+      
+    </mat-card>
+  </div>
+</div>
+
+
+<!--footer area-->
+<div class="container">
+<div style="margin:20px -25px 0px -25px; width: 100%; height: 40px; background-color: rgba(63, 63, 63, 0.911); vertical-align: middle;">
+  <span class="footer">© Copyright 2022 - All Rights Reserved Privacy Policy - Eclinical services</span>
+</div>
+</div>

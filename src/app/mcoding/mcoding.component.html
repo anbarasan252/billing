@@ -1,0 +1,21 @@
+<div>
+  <mat-toolbar class="toolbar">
+    <img class="circle" src="./assets/toolbarlogo.png">
+    <span class="rightalign"></span>
+    <div>
+      <button mat-button routerLink="">Home</button>
+      <button mat-button>Blog</button>
+      <button mat-button>About us</button>
+      <button mat-button [matMenuTriggerFor]="menu">services</button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item routerLink="/billing">Medical billing</button>
+        <button mat-menu-item routerLink="/coding"> Medical coding</button>
+      </mat-menu>
+      <button mat-button>Contact us</button>
+    </div>
+  </mat-toolbar>
+</div>
+<div class="codingbg"></div>
+<div class="octagon"></div>
+
+<div class="hexagon"> </div> 

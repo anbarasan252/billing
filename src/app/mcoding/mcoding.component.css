@@ -1,0 +1,126 @@
+
+.row {
+  display: flex;
+}
+.element {
+  flex: 0 1 46%;
+  margin: 0 2% 20px 2%;
+  margin-bottom: 3%;
+  max-width: 150px;
+}
+
+.square {
+    width: 250px;
+    height: 250px;
+    background: red;
+    
+  }
+  
+.rectangle {
+    width: 250px;
+    height: 125px;
+    background: red;
+    margin-left: 50px;
+  
+  }
+  .oval {
+    width: 250px;
+    height: 125px;
+    background: red;
+    border-radius: 100px / 50px;
+    margin-left: 50px;
+  }    
+  
+  .triangle-up {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid red;
+    }  
+   .parallelogram {
+        width: 150px;
+        height: 100px;
+        transform: skew(20deg);
+        background: red;
+      }
+      
+    .pentagon {
+        position: relative;
+        width: 54px;
+        box-sizing: content-box;
+        border-width: 50px 18px 0;
+        border-style: solid;
+        border-color: red transparent;
+      }
+     .pentagon:before {
+        content: "";
+        position: absolute;
+        height: 0;
+        width: 0;
+        top: -85px;
+        left: -18px;
+        border-width: 0 45px 35px;
+        border-style: solid;
+        border-color: transparent transparent red;
+      }
+      
+.hexagon {
+    width: 100px;
+    height: 50px;
+    background: red;
+    position:relative;
+    
+  }
+ .hexagon::before {
+  content: "";
+  position:absolute;
+    top: -28.8675px;   
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid rgb(235, 12, 216);
+  }
+  .hexagon::after {
+    content: "";
+    position: absolute;
+    bottom: -28.8675px;
+    
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid red;
+  }
+      .octagon {
+        margin: 10%;
+      width: 100px;
+      height: 100px;
+      background: red;
+      position: relative;
+      
+    }
+    .octagon:before {
+      content: "";
+      width: 50px;
+      height: 0;
+      position:absolute;
+      top: 0;
+      left: 0;
+      border-bottom: 25px solid red;
+      border-left: 25px solid white;
+      border-right: 25px solid white;
+    }
+  
+    .octagon:after {
+      content: "";
+      width: 50px;
+      height: 0;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      border-top: 25px solid red;
+      border-left: 25px solid white;
+      border-right: 25px solid white;
+    }
+
+    
