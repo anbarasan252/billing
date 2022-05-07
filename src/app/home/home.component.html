@@ -6,12 +6,25 @@
       <button mat-button routerLink="">Home</button>
       <button mat-button>Blog</button>
       <button mat-button>About us</button>
-      <button mat-button [matMenuTriggerFor]="menu">services</button>
-      <mat-menu #menu="matMenu">
-        <button mat-menu-item routerLink="billing">Medical billing</button>
-        <button mat-menu-item routerLink="coding"> Medical coding</button>
-      </mat-menu>
+
+      <div style="display: inline-block;" class="hover4">
+      <button mat-button>services</button>
+      <div class="hover3">
+        <button mat-button routerLink="billing">Medical billing</button>
+        <button mat-button routerLink="coding"> Medical coding</button>
+    </div>
+      </div>
+
+      <div style="display: inline-block;" class="hover4">
       <button mat-button>Contact us</button>
+      <div class="hover3">
+      <button mat-button>test1</button>
+      <button mat-button>test2</button>
+      <button mat-button>test3</button>
+    </div>
+    </div>
+
+
     </div>
   </mat-toolbar>
 </div>
