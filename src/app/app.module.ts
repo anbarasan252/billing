@@ -13,14 +13,18 @@ import { HomeComponent } from './home/home.component';
 import { BillingComponent } from './billing/billing.component'; 
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
+import { SignupComponent } from './signup/signup.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
-    AppComponent, McodingComponent, HomeComponent, BillingComponent
+    AppComponent, McodingComponent, HomeComponent, BillingComponent, SignupComponent
   ],
   imports: [
-    BrowserModule, MatCardModule,
-    AppRoutingModule,MatButtonModule,MatIconModule,
+    BrowserModule, MatCardModule,MatFormFieldModule,MatInputModule,
+    AppRoutingModule,MatButtonModule,MatIconModule,MatDialogModule,
     BrowserAnimationsModule, MatToolbarModule, MatProgressSpinnerModule, MatMenuModule, FlexLayoutModule,  ],
   providers: [],
   bootstrap: [AppComponent]

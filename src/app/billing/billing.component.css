@@ -1,9 +1,8 @@
 .block {
-    display:flex;
-    width: 1000px;
-    flex-direction: row;
+    display: flex;
     background-color: blanchedalmond;
-    margin: auto;
+    height: 100vh;
+    
 }
 
 .body {
@@ -38,7 +37,7 @@
 }
 
 .face__front {
-  background: yellow;
+  background: rgb(0, 110, 255);
   transform: rotateX(90deg);
   transform-origin: bottom;
 }
@@ -59,26 +58,32 @@
 }
 
 .square {
-    margin: 2.5%;
+    margin: auto;
+    margin-right: auto;
     width: 100px;
     height: 100px;
     background: red;
-  }
+ }
 
   .rectangle {
-    margin: 30px;
-    width: 200px;
-    height: 100px;
-    background: red;
+   
+    width: 220px;
+    height: 110px;
+    background: rgb(0, 81, 255);
+    padding-top:5px;
+    
   }
 
   .circle {
-    margin: 30px;
-    width: 100px;
-    height: 100px;
-    background: red;
-    border-radius: 50%
-  }
+  margin: 5px;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background: rgba(0, 81, 255, 0.425);
+    border-radius: 45%;
+    z-index:1;
+    
+     }
   
   .oval {
     margin: 30px;
@@ -89,12 +94,13 @@
   }
 
   .triangle {
-    margin: 30px;
     width: 0;
     height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-bottom: 100px solid red;
+    border-bottom: 50px solid yellow;
+    margin-top: 10px;
+    position:absolute;
   }
 
   .parallelogram {
